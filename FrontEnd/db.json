@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sản phẩm A",
+      "price": "100 USD",
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "name": "Sản phẩm B",
+      "price": "200 USD",
+      "stock": 0
+    },
+    {
+      "id": "3",
+      "name": "Sản phẩm C",
+      "price": "150 USD",
+      "stock": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "email": "jane@example.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "total": 200
+    },
+    {
+      "id": "2",
+      "customerId": 2,
+      "productId": 2,
+      "quantity": 1,
+      "total": 200
+    }
+  ]
+}
